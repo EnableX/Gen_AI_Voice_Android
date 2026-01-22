@@ -1,4 +1,4 @@
-package com.genaivoiceandroid
+package com.enablex.genaivoiceandroid
 import android.os.Bundle
 import android.util.Log
 import androidx.activity.ComponentActivity
@@ -891,7 +891,7 @@ private suspend fun fetchTokenSuspend(virtualNumber: String): String =
         val requestBody = "".toRequestBody("application/json".toMediaType())
 
         val request = Request.Builder()
-            .url("https://botsdemo.enablex.io/get-token/?phone=$virtualNumber")
+            .url("")//enter your end point url and get token
             .post(requestBody)
             .addHeader("Content-Type", "application/json")
             .build()

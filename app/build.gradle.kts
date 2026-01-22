@@ -6,13 +6,13 @@ plugins {
 }
 
 android {
-    namespace = "com.genaivoiceandroid"
+    namespace = "com.enablex.genaivoiceandroid"
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "com.genaivoiceandroid"
+        applicationId = "com.enablex.genaivoiceandroid"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
